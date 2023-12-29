@@ -1,0 +1,46 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 3%;
+    padding-right: 1%;
+    font-weight:bold;
+    background-color:darkgrey;
+    height: 80px;
+}
+
+.logo{
+    width: 90px;
+    padding-left:200px;
+    padding-bottom: 10px;
+    
+}
+
+.buscador{
+    display: flex;
+    padding-right:4%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Ajusta este valor para cambiar la forma de las esquinas */
+    outline: none;
+}
+
+ul li{
+    font-weight:bolder;
+    padding-bottom: 600px;
+    display: inline-block;
+    padding: 60px;
+    font-size: 25px;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+
+a{
+    color: #1377ad;
+    text-decoration: none;
+}
+
+a:hover{
+    color:purple;
+}

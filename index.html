@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechStore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Asignamos un imagen pequeña en la penstaña -->
+    <link rel="icon" type="image/x-icon" href="assets/img/LOGO CUADRADO.png" />
+  </head>
+  <body>
+    <!-- Creamos un header donde irá el logo y la barra de navegacion -->
+    <header>
+      <!-- Asignamos un div para el logo -->
+      <div class="container-main">
+        <div class="container-logo">
+          <!-- Con la etiqueta img asignamos una imagen y la ruteamos con el atriburo src -->
+          <img src="assets/img/logo.png" width="100px" />
+        </div>
+      </div>
+    <!-- Añadimos barra de navegacion -->
+      <div class="container-navbar">
+        <nav class="navbar container"></nav>
+        <ul class="menu">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Laptops</a></li>
+          <li><a href="#">Tablets</a></li>
+          <li><a href="#">Celulares</a></li>
+          <li><a href="#">Computadoras</a></li>
+          <li><a href="#">Accesorios</a></li>
+        </ul>
+    <!-- Añadimos un boton de tipo buscador-->
+        <form class="search-form">
+          <input type="search" placeholder="Buscar..." />
+          <input type="submit" value="Buscar"/>
+        </form>
+      </div>
+    </header>
+    <main>
+     <hr>
+     <!-- Creamos una seccion para el banner -->
+     <section class="banner">
+       <div class="content-banner">
+         <img src="assets/img/banner.jpg" />
+       </div>
+     </section>
+     <hr>
+ 
+     <!-- Creamos una seccion para las categorias -->
+      <section class="categories">
+       <h1 class="text-cagetories">Categorias</h1>
+       <div class="category-laptops">
+         <img src="assets/img/laptops.jpg"></img>
+         <span>Laptops</span>
+       </div>
+       <div class="category-tablets">
+         <img src="assets/img/tablets.jpg"></img>
+         <span>Tablets</span>
+       </div>
+       <div class="category-celulares">
+         <img src="assets/img/celulares.png"></img>
+         <span>Celulares</span>
+       </div>
+       <img src="assets/img/computadores.jpg"></img>
+       <div class="category-computers">
+         <span>Computadoras</span>
+       </div>
+       <div class="category-accesories">
+         <img src="assets/img/accesorios.jpg"></img>
+         <span>Accesorios</span>
+       </div>
+      </section>
+     
+      <hr> 
+      <!-- Creamos una seccion para el precio de envios y formulario para cotizaciones -->
+      <section class="shipments-form">
+        <div class="container-ship-form">
+         <h1 class="text-shipments">Envios</h1>
+         <!-- Utilizamos table para crear la tabla de precios para envios -->
+          <table class="shipment-prices">
+            <thead>
+              <tr>
+                 <th>Producto</th>
+                 <th>Zona</th>
+                 <th>Precio</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Laptop</td>
+                <td>LIMA</td>
+                <td>S/.15</td>
+              </tr>
+              <tr>
+                <td>Laptop</td>
+                <td>PROVINCIA</td>
+                <td>S/.25</td>
+              </tr>
+              <tr>
+                <td>Tablet</td>
+                <td>LIMA</td>
+                <td>S/.15</td>
+              </tr>
+              <tr>
+                <td>Tablet</td>
+                <td>PROVINCIA</td>
+                <td>S/.25</td>
+              </tr>
+              <tr>
+                <td>Celulares</td>
+                <td>LIMA</td>
+                <td>S/.15</td>
+              </tr>
+              <tr>
+                <td>Celulares</td>
+                <td>PROVINCIA</td>
+                <td>S/.25</td>
+              </tr>
+              <tr>
+                <td>Computadoras</td>
+                <td>LIMA</td>
+                <td>S/.15</td>
+              </tr>
+              <tr>
+                <td>Computadoras</td>
+                <td>PROVINCIA</td>
+                <td>S/.25</td>
+              </tr>
+              <tr>
+                <td>Accesorios</td>
+                <td>LIMA</td>
+                <td>S/.15</td>
+              </tr>
+              <tr>
+                <td>Accesorios</td>
+                <td>PROVINCIA</td>
+                <td>S/.25</td>
+              </tr>
+            </tbody>
+          </table>
+          <span>Cotizaciones</span>
+          <div class="form">
+            <form>
+             <label>Nombre:</label>
+             <input type="text"><br>
+             <label>Apellido:</label>
+             <input type="text"><br>
+             <label>Correo</label>
+             <input type="email"><br>
+             <input type="submit">
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <hr>
+    <!-- Creamos el pie de pagina -->
+    <footer>
+      <p>Todos los Derechos reservados &copy;</p>
+    </footer>
+  </body>
+</html>
